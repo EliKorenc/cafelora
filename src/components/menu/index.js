@@ -2,9 +2,9 @@ import './index.css';
 
 export const Menu = (props) => {
   const menuElm = document.createElement('section');
+  menuElm.classList.add('menu');
+  menuElm.id = 'menu';
   menuElm.innerHTML = `
-  </section>
-  <section class="menu">
     <div class="container">
       <h2>Naše nabídka</h2>
       <p class="menu-intro">
@@ -80,7 +80,6 @@ export const Menu = (props) => {
         <a href="/objednavka">Detail objednávky</a>
       </div>
     </div>
-  </section>
     `;
   return menuElm;
 };
