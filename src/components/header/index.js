@@ -18,5 +18,14 @@ export const Header = (props) => {
       </div>
     </div>
   `;
+
+  headerElm.querySelector('.nav-btn').addEventListener('click', () => {
+    headerElm.querySelector('.rollout-nav').classList.toggle('nav-closed');
+  });
+
+  headerElm.querySelector('.rollout-nav').addEventListener('click', () => {
+    headerElm.querySelector('.rollout-nav').classList.add('nav-closed');
+  });
+
   return headerElm;
 };
