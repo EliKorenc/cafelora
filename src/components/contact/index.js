@@ -1,6 +1,6 @@
 import './index.css';
 
-const Contact = (props) => {
+export const Contact = (props) => {
   const contactElm = document.createElement('section');
   contactElm.innerHTML = `
     <section>

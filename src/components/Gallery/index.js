@@ -1,6 +1,6 @@
 import './index.css';
 
-const Gallery = (props) => {
+export const Gallery = (props) => {
   const galleryElm = document.createElement('section');
   galleryElm.innerHTML = `
     <section class="gallery">

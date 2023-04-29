@@ -1,6 +1,6 @@
 import './index.css';
 
-const Footer = () => {
+export const Footer = () => {
   const footerElm = document.createElement('footer');
   footerElm.innerHTML = `
     <footer>

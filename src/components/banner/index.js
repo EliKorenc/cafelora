@@ -1,6 +1,6 @@
 import './index.css';
 
-const Banner = (props) => {
+export const Banner = (props) => {
   const bannerElm = document.createElement('section');
   bannerElm.innerHTML = `
     <section class="banner">

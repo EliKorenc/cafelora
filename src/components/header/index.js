@@ -1,10 +1,8 @@
-import '../../style.css';
+import './index.css';
 
-const HeaderElm = document.createElement('header');
-const appHeaderElm = document.querySelector('#appHeader');
-appHeaderElm.append(HeaderElm);
-
-HeaderElm.innerHTML = `
+export const Header = (props) => {
+  const headerElm = document.createElement('header');
+  headerElm.innerHTML = `
   <header>
       <div class="header__content container">
         <div class="site-logo"></div>
@@ -22,3 +20,5 @@ HeaderElm.innerHTML = `
       </div>
   </header>
   `;
+  return headerElm;
+};

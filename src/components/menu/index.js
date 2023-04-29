@@ -1,6 +1,6 @@
 import './index.css';
 
-const Menu = (props) => {
+export const Menu = (props) => {
   const menuElm = document.createElement('section');
   menuElm.innerHTML = `
   </section>
